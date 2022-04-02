@@ -1,0 +1,56 @@
+  .stat {
+    display: inline-flex;
+    border: 1px solid #bababa;
+    width: 100px;
+    flex-direction: column;
+    align-items: center;
+    margin: 3px;
+    border-radius: 5px;
+}
+  
+.stats {
+    display: flex;
+}
+  
+.fname span.gen {
+    border-bottom: 1px solid #dedede;
+    width: 80px!important;
+    display: block;
+    text-align: center;
+}
+  
+.calc {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+}
+  
+.calc div {
+    width: 33%;
+    text-align: center;
+}
+  
+.salvation, .modif {
+    border-top: 1px solid #c7c7c7;
+}
+  
+.salvation {
+  border-right: 1px solid #c7c7c7;
+  border-radius: 0px 15px;
+}
+  
+.modif {
+  border-left: 1px solid #c7c7c7;
+  border-radius: 15px 0px;
+}
+  
+.check {
+    padding: 5px 0px 0px 0px;
+}
+  
+.fvlue {
+    font-size: 20px;
+    padding-top: 3px;
+}
